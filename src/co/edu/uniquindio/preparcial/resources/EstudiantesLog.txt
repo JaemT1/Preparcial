@@ -10,3 +10,7 @@ oct. 14, 2022 6:23:00 P. M. co.edu.uniquindio.preparcial.persistence.ArchivoUti
 INFORMACIÓN: El estudiante con código: 41960339 ha sido agregado ,Se guarda un estudiante,2022-10-14
 oct. 14, 2022 6:52:19 P. M. co.edu.uniquindio.preparcial.persistence.ArchivoUtil guardarRegistroLog
 ADVERTENCIA: El estudiante con código: 1097488859 no pudo ser agregado porque alguna nota es mayor a 5,No se pudo guardar el estudiante,2022-10-14
+oct. 14, 2022 7:25:29 P. M. co.edu.uniquindio.preparcial.persistence.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: El estudiante con código: 187493752 ha sido agregado ,Se guarda un estudiante,2022-10-14
+oct. 14, 2022 7:26:21 P. M. co.edu.uniquindio.preparcial.persistence.ArchivoUtil guardarRegistroLog
+ADVERTENCIA: El estudiante con código: 934813 no pudo ser agregado porque alguna nota es mayor a 5,No se pudo guardar el estudiante,2022-10-14

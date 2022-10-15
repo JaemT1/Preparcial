@@ -98,6 +98,25 @@
       </void>
      </object>
     </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Estudiante">
+      <void property="codigo">
+       <int>187493752</int>
+      </void>
+      <void property="nombre">
+       <string>Luis Alberto</string>
+      </void>
+      <void property="nota1">
+       <double>2.1</double>
+      </void>
+      <void property="nota2">
+       <double>4.5</double>
+      </void>
+      <void property="nota3">
+       <double>3.8</double>
+      </void>
+     </object>
+    </void>
    </object>
   </void>
   <void property="programas">
@@ -151,6 +170,19 @@
       </void>
       <void property="nombre">
        <string>Médicina</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Programa">
+      <void property="codigo">
+       <int>9812</int>
+      </void>
+      <void property="modalidad">
+       <string>Presencial</string>
+      </void>
+      <void property="nombre">
+       <string>Veterinaria</string>
       </void>
      </object>
     </void>

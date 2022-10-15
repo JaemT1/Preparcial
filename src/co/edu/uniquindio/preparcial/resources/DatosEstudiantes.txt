@@ -3,3 +3,4 @@
 105382742,Ramiro Cortés,4.5,4.0,3.8
 9831534,Jose Alberto,4.5,2.1,2.3
 41960339,Maria Antonia,4.3,2.1,4.0
+187493752,Luis Alberto,2.1,4.5,3.8
