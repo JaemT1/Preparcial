@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.3" class="java.beans.XMLDecoder">
+ <object class="co.edu.uniquindio.preparcial.model.Universidad">
+  <void property="estudiantes">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Estudiante">
+      <void property="codigo">
+       <int>1005092535</int>
+      </void>
+      <void property="nombre">
+       <string>Juan Tunubala</string>
+      </void>
+      <void property="nota1">
+       <double>3.0</double>
+      </void>
+      <void property="nota2">
+       <double>5.0</double>
+      </void>
+      <void property="nota3">
+       <double>4.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Estudiante">
+      <void property="codigo">
+       <int>10514849</int>
+      </void>
+      <void property="nombre">
+       <string>Antonio José</string>
+      </void>
+      <void property="nota1">
+       <double>3.4</double>
+      </void>
+      <void property="nota2">
+       <double>2.5</double>
+      </void>
+      <void property="nota3">
+       <double>4.6</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Estudiante">
+      <void property="codigo">
+       <int>105382742</int>
+      </void>
+      <void property="nombre">
+       <string>Ramiro Cortés</string>
+      </void>
+      <void property="nota1">
+       <double>4.5</double>
+      </void>
+      <void property="nota2">
+       <double>4.0</double>
+      </void>
+      <void property="nota3">
+       <double>3.8</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Estudiante">
+      <void property="codigo">
+       <int>9831534</int>
+      </void>
+      <void property="nombre">
+       <string>Jose Alberto</string>
+      </void>
+      <void property="nota1">
+       <double>4.5</double>
+      </void>
+      <void property="nota2">
+       <double>2.1</double>
+      </void>
+      <void property="nota3">
+       <double>2.3</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Estudiante">
+      <void property="codigo">
+       <int>41960339</int>
+      </void>
+      <void property="nombre">
+       <string>Maria Antonia</string>
+      </void>
+      <void property="nota1">
+       <double>4.3</double>
+      </void>
+      <void property="nota2">
+       <double>2.1</double>
+      </void>
+      <void property="nota3">
+       <double>4.0</double>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="programas">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Programa">
+      <void property="codigo">
+       <int>312</int>
+      </void>
+      <void property="modalidad">
+       <string>Presencial</string>
+      </void>
+      <void property="nombre">
+       <string>contaduria</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Programa">
+      <void property="codigo">
+       <int>12341</int>
+      </void>
+      <void property="modalidad">
+       <string>Presencial</string>
+      </void>
+      <void property="nombre">
+       <string>Ingeniería Civíl</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Programa">
+      <void property="codigo">
+       <int>487</int>
+      </void>
+      <void property="modalidad">
+       <string>Presencial</string>
+      </void>
+      <void property="nombre">
+       <string>Topografía </string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Programa">
+      <void property="codigo">
+       <int>54</int>
+      </void>
+      <void property="modalidad">
+       <string>Presencial</string>
+      </void>
+      <void property="nombre">
+       <string>Médicina</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

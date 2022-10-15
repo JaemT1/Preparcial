@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="453.0" prefWidth="829.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.preparcial.controllers.FormularioViewController">
+   <children>
+      <Separator layoutX="12.0" layoutY="222.0" prefHeight="4.0" prefWidth="392.0" />
+      <Label layoutX="118.0" layoutY="14.0" text="Registro de Estudiantes">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="57.0" prefHeight="20.0" prefWidth="51.0" text="Código:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="86.0" text="Nombre:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="116.0" text="Nota 1:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="149.0" text="Nota 2:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="50.0" layoutY="181.0" text="Nota 3:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="txtCodigoEstudiante" layoutX="134.0" layoutY="54.0" />
+      <TextField fx:id="txtNombreEstudiante" layoutX="134.0" layoutY="83.0" />
+      <TextField fx:id="txtNota1" layoutX="133.0" layoutY="113.0" />
+      <TextField fx:id="txtNota2" layoutX="133.0" layoutY="146.0" />
+      <TextField fx:id="txtNota3" layoutX="134.0" layoutY="178.0" />
+      <Button fx:id="btnAgregarEstudiante" layoutX="315.0" layoutY="113.0" mnemonicParsing="false" onAction="#guardarEstudiante" text="Agregar" />
+      <Label layoutX="120.0" layoutY="236.0" text="Búsqueda de Estudiantes">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="293.0" text="Código a buscar:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="txtCodigoEstudianteABuscar" layoutX="133.0" layoutY="290.0" />
+      <Button fx:id="btnBuscarEstudiante" layoutX="319.0" layoutY="290.0" mnemonicParsing="false" onAction="#buscarEstudiante" text="Buscar" />
+      <Label fx:id="lblInfoEstudiante" layoutX="133.0" layoutY="321.0" prefHeight="120.0" prefWidth="248.0" />
+      <Separator layoutX="421.0" layoutY="7.0" orientation="VERTICAL" prefHeight="434.0" prefWidth="4.0" />
+      <AnchorPane layoutX="424.0" layoutY="3.0" prefHeight="448.0" prefWidth="392.0">
+         <children>
+            <Separator layoutX="12.0" layoutY="221.0" prefHeight="0.0" prefWidth="385.0" />
+            <Label layoutX="137.0" layoutY="14.0" text="Registro de Programas">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="65.0" text="Código:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtCodigoPrograma" layoutX="149.0" layoutY="63.0" />
+            <Label layoutX="73.0" layoutY="104.0" text="Nombre:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNombrePrograma" layoutX="149.0" layoutY="102.0" />
+            <Label layoutX="73.0" layoutY="144.0" text="Modalidad:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAgregarPrograma" layoutX="328.0" layoutY="102.0" mnemonicParsing="false" onAction="#guardarPrograma" text="Agregar" />
+            <Label layoutX="132.0" layoutY="238.0" text="Búsqueda de Programas">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="289.0" text="Código del programa a buscar:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtCodigoProgramaABuscar" layoutX="218.0" layoutY="286.0" prefHeight="25.0" prefWidth="103.0" />
+            <Button fx:id="btnBuscarPrograma" layoutX="328.0" layoutY="287.0" mnemonicParsing="false" onAction="#buscarPrograma" text="Buscar" />
+            <Label fx:id="lblInfoPrograma" layoutX="109.0" layoutY="346.0" prefHeight="68.0" prefWidth="191.0" />
+            <ChoiceBox fx:id="cboxModalidad" layoutX="149.0" layoutY="142.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

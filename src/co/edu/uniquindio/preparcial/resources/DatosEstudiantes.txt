@@ -1,0 +1,5 @@
+1005092535,Juan Tunubala,3.0,5.0,4.0
+10514849,Antonio José,3.4,2.5,4.6
+105382742,Ramiro Cortés,4.5,4.0,3.8
+9831534,Jose Alberto,4.5,2.1,2.3
+41960339,Maria Antonia,4.3,2.1,4.0
