@@ -8,7 +8,8 @@ import co.edu.uniquindio.preparcial.model.*;
 public class Persistencia {
 	//Declaración de rutas archivos
 	public static final String RUTA_ARCHIVO_ESTUDIANTES = "src/co/edu/uniquindio/preparcial/resources/DatosEstudiantes.txt";
-	public static final String RUTA_ARCHIVO_PROGRAMAS_XML = "src/co/edu/uniquindio/preparcial/resources/DatosProgramas.xml";
+	public static final String RUTA_ARCHIVO_UNIVERSIDAD_XML = "src/co/edu/uniquindio/preparcial/resources/DatosUniversidad.xml";
+	public static final String RUTA_ARCHIVO_UNIVERSIDAD_BINARIO = "src/co/edu/uniquindio/preparcial/resources/DatosUniversidadBinario.dat";
 	public static final String RUTA_ARCHIVO_ESTUDIANTES_LOG = "src/co/edu/uniquindio/preparcial/resources/EstudiantesLog.txt";
 	public static final String RUTA_ARCHIVO_MODALIDADES_PROPERTIES = "src/co/edu/uniquindio/preparcial/resources/modalidades.properties";
 	
@@ -76,7 +77,7 @@ public class Persistencia {
 	 */
 	public static void serializarUniversidadXML(Universidad universidad) {
 
-		ArchivoUtil.salvarRecursoSerializadoXML(RUTA_ARCHIVO_PROGRAMAS_XML, universidad);
+		ArchivoUtil.salvarRecursoSerializadoXML(RUTA_ARCHIVO_UNIVERSIDAD_XML, universidad);
 
 	}
 	
@@ -88,10 +89,30 @@ public class Persistencia {
 	public static Universidad cargarDatos() {
 		Universidad universidad = null;
 		try {
-			universidad = (Universidad)ArchivoUtil.cargarRecursoSerializadoXML(RUTA_ARCHIVO_PROGRAMAS_XML);
+			universidad = (Universidad)ArchivoUtil.cargarRecursoSerializadoXML(RUTA_ARCHIVO_UNIVERSIDAD_XML);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		return universidad;
 	}
+
+	public static void serializarUniversidadBinario(Universidad universidad) {
+		try {
+			ArchivoUtil.salvarRecursoSerializado(RUTA_ARCHIVO_UNIVERSIDAD_BINARIO, universidad);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static Universidad cargarDatosBinario(){
+		Universidad universidad = null;
+		try {
+			universidad = (Universidad)ArchivoUtil.cargarRecursoSerializado(RUTA_ARCHIVO_UNIVERSIDAD_BINARIO);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return universidad;
+	}
+	
+	
 }

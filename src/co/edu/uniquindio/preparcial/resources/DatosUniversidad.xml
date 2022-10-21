@@ -186,6 +186,32 @@
       </void>
      </object>
     </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Programa">
+      <void property="codigo">
+       <int>8313</int>
+      </void>
+      <void property="modalidad">
+       <string>Presencial</string>
+      </void>
+      <void property="nombre">
+       <string>Biología</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="co.edu.uniquindio.preparcial.model.Programa">
+      <void property="codigo">
+       <int>4121</int>
+      </void>
+      <void property="modalidad">
+       <string>Distancia</string>
+      </void>
+      <void property="nombre">
+       <string>Periodismo</string>
+      </void>
+     </object>
+    </void>
    </object>
   </void>
  </object>

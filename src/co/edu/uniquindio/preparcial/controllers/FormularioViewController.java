@@ -85,6 +85,7 @@ public class FormularioViewController implements Initializable, Serializable{
 			if (estudiante.getCodigo() == codigoABuscar) {
 				JOptionPane.showMessageDialog(null, "El estudiante ha sido encontrado");
 				lblInfoEstudiante.setText(estudiante.toStringtoShowView());
+				break;
 			}else {
 				lblInfoEstudiante.setText("Estudiante no encontrado");
 				txtCodigoEstudianteABuscar.setText("");
@@ -133,6 +134,7 @@ public class FormularioViewController implements Initializable, Serializable{
 		Programa programa = new Programa(codigo, nombre, modalidad);
 		ModelFactoryController.getInstance().universidad.getProgramas().add(programa);
 		ModelFactoryController.getInstance().serializarUniversidadXML();
+		ModelFactoryController.getInstance().serializarUniversidadBinario();
 		JOptionPane.showMessageDialog(null, "El programa ha sido agregado");
 		vaciarTxtFieldsProgramas();
 	}
@@ -148,6 +150,7 @@ public class FormularioViewController implements Initializable, Serializable{
 			if (programa.getCodigo() == codigoABuscar) {
 				JOptionPane.showMessageDialog(null, "El programa ha sido encontrado");
 				lblInfoPrograma.setText(programa.toStringtoShowView());
+				break;
 			}else {
 				lblInfoPrograma.setText("Programa no encontrado");
 				txtCodigoProgramaABuscar.setText("");
